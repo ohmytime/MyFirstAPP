@@ -14,6 +14,8 @@
 		0A7C54B41A2B505300828828 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A7C54B31A2B505300828828 /* Images.xcassets */; };
 		0A7C54B71A2B505300828828 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A7C54B51A2B505300828828 /* LaunchScreen.xib */; };
 		0A7C54C31A2B505300828828 /* MyFirstAPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7C54C21A2B505300828828 /* MyFirstAPPTests.m */; };
+		0AEFDCDA1A580F5700CA4D9C /* UIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEFDCD81A580F5700CA4D9C /* UIViewController.m */; };
+		0AEFDCDB1A580F5700CA4D9C /* UIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AEFDCD91A580F5700CA4D9C /* UIViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,11 @@
 		0A7C54BC1A2B505300828828 /* MyFirstAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A7C54C11A2B505300828828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A7C54C21A2B505300828828 /* MyFirstAPPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstAPPTests.m; sourceTree = "<group>"; };
+		0A7C54CC1A2B51FC00828828 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		0A7C54CD1A2B51FD00828828 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		0AEFDCD71A580F5700CA4D9C /* UIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewController.h; sourceTree = "<group>"; };
+		0AEFDCD81A580F5700CA4D9C /* UIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewController.m; sourceTree = "<group>"; };
+		0AEFDCD91A580F5700CA4D9C /* UIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +96,9 @@
 				0A7C54B31A2B505300828828 /* Images.xcassets */,
 				0A7C54B51A2B505300828828 /* LaunchScreen.xib */,
 				0A7C54A61A2B505300828828 /* Supporting Files */,
+				0AEFDCD71A580F5700CA4D9C /* UIViewController.h */,
+				0AEFDCD81A580F5700CA4D9C /* UIViewController.m */,
+				0AEFDCD91A580F5700CA4D9C /* UIViewController.xib */,
 			);
 			path = MyFirstAPP;
 			sourceTree = "<group>";
@@ -201,6 +211,7 @@
 			files = (
 				0A7C54B21A2B505300828828 /* Main.storyboard in Resources */,
 				0A7C54B71A2B505300828828 /* LaunchScreen.xib in Resources */,
+				0AEFDCDB1A580F5700CA4D9C /* UIViewController.xib in Resources */,
 				0A7C54B41A2B505300828828 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +232,7 @@
 			files = (
 				0A7C54AF1A2B505300828828 /* ViewController.m in Sources */,
 				0A7C54AC1A2B505300828828 /* AppDelegate.m in Sources */,
+				0AEFDCDA1A580F5700CA4D9C /* UIViewController.m in Sources */,
 				0A7C54A91A2B505300828828 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +260,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				0A7C54B11A2B505300828828 /* Base */,
+				0A7C54CC1A2B51FC00828828 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -256,6 +269,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				0A7C54B61A2B505300828828 /* Base */,
+				0A7C54CD1A2B51FD00828828 /* zh-Hans */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -346,6 +360,7 @@
 				INFOPLIST_FILE = MyFirstAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -356,6 +371,7 @@
 				INFOPLIST_FILE = MyFirstAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -412,6 +428,7 @@
 				0A7C54C81A2B505300828828 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A7C54C91A2B505300828828 /* Build configuration list for PBXNativeTarget "MyFirstAPPTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +437,7 @@
 				0A7C54CB1A2B505300828828 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
